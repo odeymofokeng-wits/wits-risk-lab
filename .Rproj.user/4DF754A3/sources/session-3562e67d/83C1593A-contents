@@ -1,0 +1,179 @@
+---
+title: ""
+description: "Advancing Risk Analytics & Actuarial Science through innovative research at the University of the Witwatersrand"
+format:
+  html:
+    title-block-style: none
+---
+
+```{=html}
+<!-- ═══════════════════════════════════════════
+     HERO SECTION
+     ═══════════════════════════════════════════ -->
+<div class="hero-section">
+  <img src="images/hero-bg.png" alt="" class="hero-bg" />
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <img src="images/logo.png" alt="WITS Old Mutual Insure Risk Lab" class="hero-logo" />
+
+    <div class="hero-badges">
+      <span class="badge">University of the Witwatersrand, Johannesburg</span>
+    </div>
+
+    <h1 class="hero-title">
+      WITS Old Mutual Insure<br />
+      <span class="gold">Risk Lab</span>
+    </h1>
+
+    <p class="hero-tagline">
+      Advancing Risk Analytics Through Rigorous Research
+    </p>
+    <p class="hero-subtitle">
+      A collaborative research laboratory driving solutions to complex challenges in climate, health, and insurance
+    </p>
+
+    <div class="hero-buttons">
+      <a href="research.qmd" class="hero-btn-primary">
+        Explore Our Research →
+      </a>
+      <a href="team.qmd" class="hero-btn-secondary">
+        👥 Meet the Team
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     STATS BAR
+     ═══════════════════════════════════════════ -->
+<div class="stats-bar text-center">
+  <div class="container">
+    <div class="row g-4 justify-content-center">
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-number">6+</div>
+        <div class="stat-label">Researchers</div>
+      </div>
+      <div class="col-6 col-md-3 stat-item">
+        <div class="stat-number">5+</div>
+        <div class="stat-label">Research Areas</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     ABOUT PREVIEW
+     ═══════════════════════════════════════════ -->
+<div class="bg-light-section" style="padding: 5rem 0;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge badge-navy">About Us</span>
+      <h2>Who We Are</h2>
+      <div class="gold-line"></div>
+      <p style="color: #666; max-width: 700px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">
+        The WITS Old Mutual Insure Risk Lab is a pioneering research laboratory
+        established through a partnership between the University of the
+        Witwatersrand's School of Statistics and Actuarial Science and Old Mutual
+        Insure.
+      </p>
+    </div>
+
+    <div class="row g-4 mt-4 justify-content-center">
+      <div class="col-md-4">
+        <div class="about-value-card">
+          <div class="about-value-icon"><img src="images/target.png" alt="Mission" style="width: 48px; height: 48px; object-fit: contain;"></div>
+          <div>
+            <div class="about-value-title">Our Mission</div>
+            <div class="about-value-text">
+              To solve complex risk problems facing African communities and industries through rigorous quantitative research. We develop methods that work in practice, not just in theory, and ensure our findings reach those who can use them.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-value-card">
+          <div class="about-value-icon"><img src="images/vision.jpg" alt="Vision" style="width: 48px; height: 48px; object-fit: cover; border-radius: 12px;"></div>
+          <div>
+            <div class="about-value-title">Our Vision</div>
+            <div class="about-value-text">
+              An African-led research environment where local expertise shapes global standards in risk assessment. We aim to demonstrate that world-class quantitative research can emerge from and serve the continent.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="about-value-card">
+          <div class="about-value-icon"><img src="images/values.jpg" alt="Values" style="width: 48px; height: 48px; object-fit: cover; border-radius: 12px;"></div>
+          <div>
+            <div class="about-value-title">Our Values</div>
+            <div class="about-value-text">
+              Rigour: methods that hold up to scrutiny. Transparency: open data, open code, clear communication. Collaboration: across disciplines, institutions, and sectors. Relevance: research that addresses real problems. Development: growing expertise at all career stages.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="about.qmd" class="hero-btn-primary" style="display: inline-block;">
+        Learn More →
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- RESEARCH PREVIEW -->
+<div style="padding: 5rem 0; background: white;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge badge-navy">Research Focus</span>
+      <h2>Our Research Areas</h2>
+      <div class="gold-line"></div>
+      <p style="color: #666; max-width: 700px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">
+        Our research spans a broad spectrum of statistical and actuarial disciplines,
+        united by the goal of advancing quantitative risk assessment methodologies.
+      </p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="research-card">
+         <div class="research-card-icon"><img src="images/climate.png" alt="Climate Risk" style="width: 56px; height: 56px; object-fit: contain;"></div>
+          <div class="research-card-title">Climate Risk Modelling</div>
+          <div class="research-card-text">
+            Developing spatial and temporal models for extreme weather events,
+            seasonal forecasting, and climate-resilient insurance pricing across
+            African regions.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="research-card">
+          <div class="research-card-icon"><img src="images/survival.png" alt="Health and Survival" style="width: 56px; height: 56px; object-fit: contain;"></div>
+          <div class="research-card-title">Health & Survival Analysis</div>
+          <div class="research-card-text">
+            Applying survival analysis and machine learning to infectious disease
+            dynamics, mortality modelling, and public health risk assessment.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="research-card">
+          <div class="research-card-icon"><img src="images/spatial.png" alt="Spatial Statistics" style="width: 56px; height: 56px; object-fit: contain;"></div>
+          <div class="research-card-title">Spatial Statistics</div>
+          <div class="research-card-text">
+            Using geostatistical methods for
+            environmental monitoring, wastewater surveillance, and regional risk mapping.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+      <a href="research.qmd" class="hero-btn-primary" style="display: inline-block;">
+        View All Research →
+      </a>
+    </div>
+  </div>
+</div>
+```

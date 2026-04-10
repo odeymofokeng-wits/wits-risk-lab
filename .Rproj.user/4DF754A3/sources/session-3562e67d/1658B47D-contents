@@ -1,0 +1,138 @@
+---
+title: "Contact"
+---
+
+```{=html}
+<!-- Contact Hero -->
+<div class="contact-section" style="margin-top: -56px; padding-top: 56px;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge" style="border: 1px solid rgba(255,255,255,0.2); color: var(--color-gold-light); background: rgba(255,255,255,0.05);">Contact Us</span>
+      <h2 style="color: #ffffff !important;">Get in Touch</h2>
+      <div class="gold-line"></div>
+      <p style="color: rgba(255,255,255,0.7); max-width: 600px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">
+        Interested in collaborating, joining our lab, or learning more about
+        our research? We would love to hear from you.
+      </p>
+    </div>
+
+    <div class="row g-4 justify-content-center" style="max-width: 900px; margin: 0 auto;">
+      <!-- Email -->
+      <div class="col-md-4">
+        <div class="contact-card">
+          <div class="contact-icon"><img src="images/contact.png" alt="Email" style="width: 56px; height: 56px; object-fit: contain;"></div>
+          <div class="contact-title">Email</div>
+          <div class="contact-text">
+            <a href="mailto:risklab@wits.ac.za" class="contact-link">
+              risklab@wits.ac.za
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Location -->
+      <div class="col-md-4">
+        <div class="contact-card">
+          <div class="contact-icon"><img src="images/location.png" alt="Location" style="width: 56px; height: 56px; object-fit: contain;"></div>
+          <div class="contact-title">Location</div>
+          <div class="contact-text">
+            School of Statistics & Actuarial Science<br />
+            University of the Witwatersrand<br />
+            Johannesburg, South Africa
+          </div>
+        </div>
+      </div>
+
+      <!-- Connect -->
+      <div class="col-md-4">
+        <div class="contact-card">
+          <div class="contact-icon"><img src="images/connect.png" alt="Connect" style="width: 56px; height: 56px; object-fit: contain;"></div>
+          <div class="contact-title">Connect</div>
+          <div class="contact-text">
+            Follow us on LinkedIn for the latest
+            updates on our research and activities.
+            <br /><br />
+            <a href="#" class="contact-link">
+              Visit LinkedIn →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Additional Info -->
+<div style="padding: 5rem 0; background: white;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge badge-navy">Information</span>
+      <h2>Useful Links</h2>
+      <div class="gold-line"></div>
+    </div>
+
+    <div class="row g-4 justify-content-center" style="max-width: 800px; margin: 0 auto;">
+      <div class="col-md-4">
+        <div class="partner-card">
+          <img src="images/wits.jpg" alt="WITS" style="width: 56px; height: 56px; object-fit: contain; border-radius: 12px; margin-bottom: 0.5rem;">
+          <div class="partner-name">WITS University</div>
+          <div class="partner-text">
+            Official website of the University of the Witwatersrand.
+          </div>
+          <a href="https://www.wits.ac.za" target="_blank" class="contact-link" style="margin-top: 1rem; display: inline-block;">
+            Visit →
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="partner-card">
+           <img src="images/oldmutual.jpg" alt="Old Mutual Insure" style="width: 56px; height: 56px; object-fit: contain; border-radius: 12px; margin-bottom: 0.5rem;">
+          <div class="partner-name">Old Mutual South Africa</div>
+          <div class="partner-text">
+            Learn more about Old Mutual's insurance and financial services.
+          </div>
+          <a href="https://www.oldmutual.co.za" target="_blank" class="contact-link" style="margin-top: 1rem; display: inline-block;">
+            Visit →
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="partner-card">
+          <img src="images/rail.png" alt="RAIL Lab" style="width: 56px; height: 56px; object-fit: contain; border-radius: 12px; margin-bottom: 0.5rem;">
+          <div class="partner-name">RAIL Lab (WITS)</div>
+          <div class="partner-text">
+            The Robotics, AI & Learning Lab — a sister lab at WITS.
+          </div>
+          <a href="https://www.raillab.org" target="_blank" class="contact-link" style="margin-top: 1rem; display: inline-block;">
+            Visit →
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Map placeholder -->
+<div class="bg-light-section" style="padding: 4rem 0;">
+  <div class="container">
+    <div class="text-center">
+      <h3 style="color: var(--color-navy) !important; margin-bottom: 1rem;">
+        Find Us on Campus
+      </h3>
+      <p style="color: #666; max-width: 600px; margin: 0 auto 1.5rem; font-size: 0.95rem;">
+        The Risk Lab is located in the School of Statistics and Actuarial Science,
+        West Campus, University of the Witwatersrand, Johannesburg.
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7!2d28.03!3d-26.19!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950f00%3A0x0!2sUniversity+of+the+Witwatersrand!5e0!3m2!1sen!2sza!4v1600000000000!5m2!1sen!2sza"
+        width="100%"
+        height="350"
+        style="border:0; border-radius: 12px; max-width: 800px; margin: 0 auto; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</div>
+```

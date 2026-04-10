@@ -1,0 +1,155 @@
+---
+title: "Research"
+---
+
+
+```{=html}
+<div style="padding: 5rem 0; background: white;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge badge-navy">Research Focus</span>
+      <h2>Our Research Areas</h2>
+      <div class="gold-line"></div>
+      <p style="color: #666; max-width: 700px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">
+        Our research spans a broad spectrum of statistical and actuarial
+        disciplines, united by the goal of advancing quantitative risk
+        assessment methodologies.
+      </p>
+    </div>
+
+    <div class="row g-4">
+  <!-- 1. Climate Risk Modelling -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon"><img src="images/climate.png" alt="Climate Risk" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-title">Climate Risk Modelling</div>
+      <div class="research-card-text">
+        Developing spatial and temporal models for extreme weather events,
+        seasonal forecasting, and climate-resilient insurance pricing across
+        African regions. This includes heatwaves, drought, and flood risk assessment.
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. Machine Learning & AI -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon"><img src="images/ml.png" alt="Machine Learning" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-title">Machine Learning & AI</div>
+      <div class="research-card-text">
+        Applying deep learning, neural networks, and ensemble methods to
+        insurance and health datasets for improved prediction and risk classification.
+        We explore supervised and unsupervised learning for actuarial applications.
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Health & Survival Analysis -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon"><img src="images/survival.png" alt="Health and Survival" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-title">Health & Survival Analysis</div>
+      <div class="research-card-text">
+        Studying mortality trends, infectious disease dynamics, and longevity risk
+        using survival analysis and machine learning methods. This includes
+        under-five mortality, maternal health, and Bayesian mortality projections.
+      </div>
+    </div>
+  </div>
+
+  <!-- 4. Spatial Statistics -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon"><img src="images/spatial.png" alt="Spatial Statistics" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-title">Spatial Statistics</div>
+      <div class="research-card-text">
+        Using geostatistical methods, kriging, and spatial copula frameworks for
+        environmental monitoring, regional risk mapping, and wastewater surveillance.
+        This includes Bayesian spatial modelling for public health and insurance.
+      </div>
+    </div>
+  </div>
+
+  <!-- 5. Data Visualisation -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon"><img src="images/visualisation.png" alt="Data Visualisation" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-title">Data Visualisation</div>
+      <div class="research-card-text">
+        Developing multivariate visualisation techniques including biplots,
+        principal surfaces, and interactive dashboards. This includes RShiny
+        applications and methods for exploring high-dimensional actuarial data.
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. Risk & Insurance Analytics -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon"><img src="images/risk.jpg" alt="Risk and Insurance" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-title">Risk & Insurance Analytics</div>
+      <div class="research-card-text">
+        Developing pricing, reserving, and capital assessment models for
+        general and life insurance. This includes catastrophe modelling,
+        dependence structures, and stochastic simulations for portfolio risk.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Current Projects Section -->
+<div class="bg-light-section" style="padding: 5rem 0;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge badge-gold">Current Work</span>
+      <h2>Projects in Progress</h2>
+      <div class="gold-line"></div>
+      <p style="color: #666; max-width: 700px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">
+        The lab is establishing its research programme. Current student
+        projects are underway, with outputs expected in the coming years.
+      </p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-8">
+        <div style="border-left: 3px solid var(--color-navy); padding-left: 2rem;">
+
+          <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Climate Risk and Insurance Pricing
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Odey Mofokeng (MSc Statistics) is developing Bayesian spatial
+              copula frameworks for insurance pricing in KwaZulu-Natal,
+              examining flood and drought risk through geostatistical methods.
+            </p>
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Climate Exposure and Health Risk
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Aphiwe Ngcobo (Honours Statistics) is examining how extreme heat,
+              drought, and heavy rainfall affect vulnerable populations in
+              Gauteng, combining climate data with public health analysis.
+            </p>
+          </div>
+
+          <div>
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Developing Collaborations
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              We are building partnerships with industry and academic
+              institutions to expand our research capacity and create
+              opportunities for future publications and conference presentations.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+```

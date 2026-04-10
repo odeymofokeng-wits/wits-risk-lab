@@ -1,0 +1,649 @@
+/* ============================================
+   WITS Old Mutual Insure Risk Lab — Custom Styles
+   ============================================ */
+   
+   
+
+
+/* ── Global ── */
+:root {
+  --color-navy: #002B5C;
+  --color-navy-light: #003d82;
+  --color-navy-dark: #001a38;
+  --color-gold: #C8A951;
+  --color-gold-light: #D4BA6E;
+  --color-gold-dark: #B8943A;
+  --color-teal: #1a6b5a;
+  --color-teal-light: #2a8b72;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-body) !important;
+  color: #333 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading) !important;
+  color: var(--color-navy) !important;
+  font-weight: 700 !important;
+}
+
+/* ── Navbar ── */
+.navbar {
+  background-color: var(--color-navy) !important;
+  padding: 0.6rem 1.5rem !important;
+  box-shadow: 0 2px 15px rgba(0, 43, 92, 0.3) !important;
+}
+
+.navbar-brand .navbar-title {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+}
+
+.navbar .nav-link,
+.navbar .dropdown-item {
+  color: rgba(255, 255, 255, 0.85) !important;
+  font-weight: 500 !important;
+  font-size: 0.9rem !important;
+  transition: color 0.3s ease !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover,
+.navbar .nav-link.active {
+  color: var(--color-gold-light) !important;
+}
+
+.navbar .nav-link.active {
+  border-bottom: 2px solid var(--color-gold) !important;
+}
+
+.navbar-collapse.show {
+  background-color: var(--color-navy-dark) !important;
+  padding: 1rem !important;
+  border-radius: 0 0 8px 8px !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255,255,255,0.3) !important;
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* ── Hero Section ── */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: var(--color-navy);
+  margin-top: -56px; /* offset navbar */
+  padding-top: 56px;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 43, 92, 0.92) 0%,
+    rgba(0, 43, 92, 0.70) 40%,
+    rgba(0, 43, 92, 0.50) 70%,
+    rgba(26, 107, 90, 0.35) 100%
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+.hero-logo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff !important;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.hero-title .gold {
+  color: var(--color-gold-light) !important;
+}
+
+.hero-tagline {
+  font-size: 1.3rem;
+  color: rgba(255,255,255,0.8) !important;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.6) !important;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.hero-badges {
+  margin-bottom: 1.5rem;
+}
+
+.hero-badges .badge {
+  background: rgba(255,255,255,0.1) !important;
+  color: rgba(255,255,255,0.9) !important;
+  border: 1px solid rgba(255,255,255,0.2) !important;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.85rem !important;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-btn-primary {
+  background-color: var(--color-gold) !important;
+  color: var(--color-navy-dark) !important;
+  border: none !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.hero-btn-primary:hover {
+  background-color: var(--color-gold-light) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(200, 169, 81, 0.4);
+}
+
+.hero-btn-secondary {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.3) !important;
+  padding: 0.75rem 2rem !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.hero-btn-secondary:hover {
+  background-color: rgba(255,255,255,0.1) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+}
+
+/* ── Stats Bar ── */
+.stats-bar {
+  background: linear-gradient(135deg, var(--color-navy-dark), var(--color-navy), var(--color-navy-light));
+  padding: 3rem 2rem;
+}
+
+.stats-bar .stat-item {
+  text-align: center;
+}
+
+.stats-bar .stat-number {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #ffffff !important;
+}
+
+.stats-bar .stat-label {
+  font-size: 0.85rem;
+  color: var(--color-gold-light) !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+/* ── Section Styles ── */
+.section-title-wrapper {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-badge {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.75rem;
+}
+
+.badge-navy {
+  border-color: rgba(0, 43, 92, 0.2) !important;
+  color: var(--color-navy) !important;
+}
+
+.badge-gold {
+  border-color: rgba(200, 169, 81, 0.3) !important;
+  color: var(--color-gold-dark) !important;
+}
+
+.badge-teal {
+  border-color: rgba(26, 107, 90, 0.3) !important;
+  color: var(--color-teal) !important;
+}
+
+.gold-line {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+  margin: 0.75rem auto;
+}
+
+/* ── About Cards ── */
+.about-value-card {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-value-icon {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(0, 43, 92, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.about-value-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-navy) !important;
+  margin-bottom: 0.25rem;
+}
+
+.about-value-text {
+  font-size: 0.9rem;
+  color: #666 !important;
+  line-height: 1.7;
+}
+
+.about-academic-card {
+  background: linear-gradient(135deg, var(--color-navy), var(--color-navy-light));
+  color: white !important;
+  border-radius: 12px;
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-academic-card h3 {
+  color: #ffffff !important;
+  font-size: 1.5rem !important;
+}
+
+.about-academic-card p {
+  color: rgba(255,255,255,0.8) !important;
+}
+
+.about-academic-card ul li {
+  color: rgba(255,255,255,0.9) !important;
+}
+
+.about-academic-card .icon-gold {
+  font-size: 2rem;
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
+
+/* ── Research Cards ── */
+.research-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  border: 1px solid #eee;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 43, 92, 0.12);
+}
+
+.research-card-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: rgba(0, 43, 92, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.research-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-navy) !important;
+  margin-bottom: 0.75rem;
+}
+
+.research-card-text {
+  font-size: 0.88rem;
+  color: #666 !important;
+  line-height: 1.7;
+}
+
+/* ── Team Cards ── */
+.team-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  border: 1px solid #eee;
+}
+
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 43, 92, 0.12);
+}
+
+.team-card-top {
+  height: 6px;
+  background: linear-gradient(90deg, var(--color-navy), var(--color-navy-light));
+}
+
+.team-card.teal .team-card-top {
+  background: linear-gradient(90deg, var(--color-teal), var(--color-teal-light));
+}
+
+.team-card.gold .team-card-top {
+  background: linear-gradient(90deg, var(--color-gold-dark), var(--color-gold));
+}
+
+.team-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  quobject-fit: cover;
+  background-color: var(--color-navy);
+}
+
+.avatar-navy { background: linear-gradient(135deg, var(--color-navy), var(--color-navy-light)); }
+.avatar-teal { background: linear-gradient(135deg, var(--color-teal), var(--color-teal-light)); }
+.avatar-gold { background: linear-gradient(135deg, var(--color-gold-dark), var(--color-gold)); }
+.avatar-navy-dark { background: linear-gradient(135deg, var(--color-navy-dark), var(--color-navy)); }
+
+.team-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-navy) !important;
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.team-role {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-gold-dark) !important;
+  text-align: center;
+}
+
+.team-affiliation {
+  font-size: 0.75rem;
+  color: #999 !important;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.team-badge {
+  display: inline-block;
+  background: rgba(0, 43, 92, 0.05);
+  color: var(--color-navy) !important;
+  border-radius: 20px;
+  padding: 0.15rem 0.65rem;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin: 0.15rem;
+}
+
+.team-bio {
+  font-size: 0.85rem;
+  color: #666 !important;
+  line-height: 1.7;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* ── Partner Cards ── */
+.partner-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid #eee;
+  height: 100%;
+}
+
+.partner-abbr {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+  background: var(--color-navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 auto 1.5rem;
+}
+
+.partner-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-navy) !important;
+  margin-bottom: 0.75rem;
+}
+
+.partner-text {
+  font-size: 0.88rem;
+  color: #666 !important;
+  line-height: 1.7;
+}
+
+/* ── Contact Section ── */
+.contact-section {
+  background: var(--color-navy);
+  color: white;
+  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  height: 100%;
+}
+
+.contact-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: rgba(200, 169, 81, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  font-size: 1.5rem;
+}
+
+.contact-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffffff !important;
+  margin-bottom: 0.5rem;
+}
+
+.contact-text {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.7) !important;
+  line-height: 1.7;
+}
+
+.contact-link {
+  color: var(--color-gold) !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: var(--color-gold-light) !important;
+}
+
+/* ── Footer ── */
+.page-footer {
+  background-color: var(--color-navy-dark) !important;
+  padding: 2.5rem 0 !important;
+}
+
+.page-footer p, .page-footer a {
+  color: rgba(255,255,255,0.6) !important;
+  font-size: 0.85rem;
+}
+
+.page-footer a:hover {
+  color: var(--color-gold-light) !important;
+}
+
+.page-footer .nav-link {
+  padding: 0.2rem 0 !important;
+}
+
+/* ── Quarto Overrides ── */
+#quarto-content {
+  padding-top: 0 !important;
+}
+
+main#quarto-document-content {
+  padding: 0 !important;
+}
+
+.quarto-title-block,
+.breadcrumb,
+.navbar-header .nav-item .nav-link:first-child {
+  /* hide default breadcrumb on some pages if needed */
+}
+
+/* Remove default padding from pages */
+.quarto-page-columns .content {
+  max-width: 100% !important;
+}
+
+/* ── Utility ── */
+.bg-light-section {
+  background-color: #f8f9fa;
+}
+
+.text-gold { color: var(--color-gold) !important; }
+.text-navy { color: var(--color-navy) !important; }
+.bg-navy { background-color: var(--color-navy) !important; }
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-logo {
+    width: 120px;
+    height: 120px;
+  }
+  .stats-bar .stat-number {
+    font-size: 2rem;
+  }
+  .hero-section {
+    margin-top: -56px;
+    padding-top: 56px;
+  }
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-navy-light);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

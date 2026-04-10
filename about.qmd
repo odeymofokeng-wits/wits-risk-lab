@@ -1,0 +1,167 @@
+---
+title: "About"
+---
+
+```{=html}
+<div style="padding: 5rem 0; background: white;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge badge-gold">About Us</span>
+      <h2>Who We Are</h2>
+      <div class="gold-line"></div>
+      <p style="color: #666; max-width: 700px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">
+        The WITS Old Mutual Insure Risk Lab is a pioneering research laboratory
+        established through a partnership between the University of the
+        Witwatersrand's School of Statistics and Actuarial Science and Old Mutual
+        Insure. We are dedicated to producing impactful research tackling climate risk, infectious disease modelling, and sustainable insurance through advanced statistical and machine learning methods.
+      </p>
+    </div>
+
+    <div class="row g-5 align-items-start">
+      <!-- Left column: Mission, Vision, Values -->
+      <div class="col-lg-6">
+        <div class="about-value-card">
+          <div class="about-value-icon"><img src="images/target.png" alt="Mission" style="width: 48px; height: 48px; object-fit: contain;"></div>
+          <div>
+            <div class="about-value-title">Our Mission</div>
+            <div class="about-value-text">
+              To solve complex risk problems facing African communities and industries 
+          through rigorous quantitative research. We develop methods that work in 
+          practice, not just in theory, and ensure our findings reach those who can 
+          use them.
+            </div>
+          </div>
+        </div>
+
+        <div class="about-value-card">
+          <div class="about-value-icon"><img src="images/vision.jpg" alt="Vision" style="width: 48px; height: 48px; object-fit: cover; border-radius: 12px;"></div>
+          <div>
+            <div class="about-value-title">Our Vision</div>
+            <div class="about-value-text">
+              An African-led research environment where local expertise shapes global 
+          standards in risk assessment. We aim to demonstrate that world-class 
+          quantitative research can emerge from and serve the continent.
+            </div>
+          </div>
+        </div>
+
+        <div class="about-value-card">
+         <div class="about-value-icon"><img src="images/values.jpg" alt="Values" style="width: 48px; height: 48px; object-fit: cover; border-radius: 12px;"></div>
+          <div>
+            <div class="about-value-title">Our Values</div>
+            <div class="about-value-text">
+              <ul style="padding-left: 1.2rem; margin: 0;">
+                <li><strong>Academic Rigour</strong> — Maintaining the highest standards in research methodology</li>
+                <li><strong>High Quality Research</strong> — Using mostly open-source tools for transparency</li>
+                <li><strong>Open Collaboration</strong> — Working across disciplines and institutions</li>
+                <li><strong>Industry Impact</strong> — Translating research into practical solutions</li>
+                <li><strong>Capacity Building</strong> — Training the next generation of quantitative researchers</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column: Academic Excellence card -->
+      <div class="col-lg-6">
+        <div class="about-academic-card">
+          <h3>Academic Excellence at WITS</h3>
+          <p style="margin-top: 1rem;">
+            Our lab is situated within the School of Statistics and Actuarial
+            Science at WITS, one of the foremost institutions for statistical
+            education in Africa. We combine rigorous academic training with
+            hands-on industry exposure.
+          </p>
+          <ul style="padding-left: 1.2rem; margin-top: 1rem;">
+            <li>Postgraduate research supervision at Honours, Masters and PhD level</li>
+            <li>Industry-linked research projects with Old Mutual Insure</li>
+            <li>Workshops and training programmes in R and modern analytics</li>
+            <li>Building accessible computational tools for risk assessment</li>
+            <li>Conference presentations and academic publications</li>
+            <li>Cross-collaboration with international research groups</li>
+          </ul>
+        </div>
+
+       <!-- Partners preview -->
+<div class="row g-3 mt-4">
+  <div class="col-6">
+    <div class="partner-card" style="padding: 1.5rem;">
+      <img src="images/wits.jpg" alt="WITS" style="width: 56px; height: 56px; object-fit: contain; border-radius: 12px; margin-bottom: 0.5rem;">
+      <div class="partner-name" style="font-size: 1rem;">University of the Witwatersrand</div>
+      <div class="partner-text" style="font-size: 0.8rem;">
+        One of Africa's leading research-intensive universities.
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="partner-card" style="padding: 1.5rem;">
+      <img src="images/oldmutual.jpg" alt="Old Mutual Insure" style="width: 56px; height: 56px; object-fit: contain; border-radius: 12px; margin-bottom: 0.5rem;">
+      <div class="partner-name" style="font-size: 1rem;">Old Mutual Insure</div>
+      <div class="partner-text" style="font-size: 0.8rem;">
+        A leading insurer in South Africa driving industry innovation.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- History / Timeline Section -->
+<div class="bg-light-section" style="padding: 5rem 0;">
+  <div class="container">
+    <div class="section-title-wrapper">
+      <span class="section-badge badge-navy">Our Journey</span>
+      <h2>Lab History</h2>
+      <div class="gold-line"></div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div style="border-left: 3px solid var(--color-gold); padding-left: 2rem;">
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+  <img src="images/establishment.jpg" alt="Establishment" style="width: 24px; height: 24px; object-fit: cover; border-radius: 4px; vertical-align: middle; margin-right: 0.5rem;">
+  Establishment
+</h4>
+            <p style="font-size: 0.85rem; color: var(--color-gold-dark); font-weight: 600; margin-bottom: 0.5rem;">Partnership Foundation</p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              The Risk Lab was established through a strategic partnership between
+              the University of the Witwatersrand's School of Statistics and
+              Actuarial Science and Old Mutual Insure, recognising the need for
+              dedicated research capacity in risk analytics.
+            </p>
+          </div>
+          <div style="margin-bottom: 2rem;">
+            <h4 style="color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+  <img src="images/growth.jpg" alt="Team Growth" style="width: 24px; height: 24px; object-fit: cover; border-radius: 4px; vertical-align: middle; margin-right: 0.5rem;">
+  Team Growth
+</h4>
+            <p style="font-size: 0.85rem; color: var(--color-gold-dark); font-weight: 600; margin-bottom: 0.5rem;">Building Research Capacity</p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              The lab includes leading researchers, lecturers,
+              postdoctoral fellows, and talented postgraduate students, each
+              contributing unique expertise in statistics, actuarial science,
+              and machine learning.
+            </p>
+          </div>
+          <div>
+            <h4 style="color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+  <img src="images/impact.jpg" alt="Current Impact" style="width: 24px; height: 24px; object-fit: cover; border-radius: 4px; vertical-align: middle; margin-right: 0.5rem;">
+  Current Impact
+</h4>
+            <p style="font-size: 0.85rem; color: var(--color-gold-dark); font-weight: 600; margin-bottom: 0.5rem;">Research & Outreach</p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Today the lab is building its research programme, with team members 
+  actively developing projects in climate risk, health statistics, and 
+  spatial modelling. We are growing our network of academic and industry 
+  partnerships across South Africa and beyond.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+```
