@@ -27,7 +27,7 @@ website:
         href: contact.qmd
     right:
       - icon: github
-        href: https://github.com/odeymofokeng-wits/wits-riks-lab
+        href: https://github.com/odeymofokeng-wits/wits-risk-lab
         aria-label: GitHub
   page-footer:
     left: |

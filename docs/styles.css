@@ -507,6 +507,100 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
 }
 
+
+
+/* Underlined links in bios */
+.bio-text a {
+  color: var(--color-navy);
+  text-decoration: underline;
+  text-decoration-color: var(--color-gold);
+  text-underline-offset: 3px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.bio-text a:hover {
+  color: var(--color-gold-dark);
+  text-decoration-thickness: 2px;
+}
+
+/* Social links container - below badges in expanded view */
+.social-links {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.4s ease 0.2s; /* Delayed fade in */
+}
+
+.team-card-compact.active .social-links {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Social link circles */
+.social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.social-link:hover {
+  transform: scale(1.1);
+  border-color: var(--color-gold);
+}
+
+/* Platform-specific colors */
+.social-link.linkedin {
+  background: #0077b5;
+}
+
+.social-link.orcid {
+  background: #a6ce39;
+}
+
+.social-link.website {
+  background: var(--color-navy);
+}
+
+.social-link.twitter {
+  background: #1da1f2;
+}
+
+.social-link.github {
+  background: #333;
+}
+
+/* Alternative: Simple text links if icons are too much */
+.social-link-text {
+  font-size: 0.8rem;
+  color: var(--color-navy);
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  background: #f0f0f0;
+  transition: all 0.2s ease;
+}
+
+.social-link-text:hover {
+  background: var(--color-gold);
+  color: white;
+}
+
+
 /* ── Contact Section ── */
 .contact-section {
   background: var(--color-navy);
