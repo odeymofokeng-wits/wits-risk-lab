@@ -21,7 +21,7 @@ title: "About"
       <!-- Left column: Mission, Vision, Values -->
       <div class="col-lg-6">
         <div class="about-value-card">
-          <div class="about-value-icon"><img src="images/target.png" alt="Mission" style="width: 48px; height: 48px; object-fit: contain;"></div>
+          <div class="about-value-icon">🎯</div>
           <div>
             <div class="about-value-title">Our Mission</div>
             <div class="about-value-text">
@@ -34,7 +34,7 @@ title: "About"
         </div>
 
         <div class="about-value-card">
-          <div class="about-value-icon"><img src="images/vision.jpg" alt="Vision" style="width: 48px; height: 48px; object-fit: cover; border-radius: 12px;"></div>
+          <div class="about-value-icon">🌍</div>
           <div>
             <div class="about-value-title">Our Vision</div>
             <div class="about-value-text">
@@ -46,7 +46,7 @@ title: "About"
         </div>
 
         <div class="about-value-card">
-         <div class="about-value-icon"><img src="images/values.jpg" alt="Values" style="width: 48px; height: 48px; object-fit: cover; border-radius: 12px;"></div>
+         <div class="about-value-icon">🏆</div>
           <div>
             <div class="about-value-title">Our Values</div>
             <div class="about-value-text">
@@ -122,7 +122,7 @@ title: "About"
         <div style="border-left: 3px solid var(--color-gold); padding-left: 2rem;">
           <div style="margin-bottom: 2rem;">
             <h4 style="color: var(--color-navy) !important; margin-bottom: 0.25rem;">
-  <img src="images/establishment.jpg" alt="Establishment" style="width: 24px; height: 24px; object-fit: cover; border-radius: 4px; vertical-align: middle; margin-right: 0.5rem;">
+  🔬
   Establishment
 </h4>
             <p style="font-size: 0.85rem; color: var(--color-gold-dark); font-weight: 600; margin-bottom: 0.5rem;">Partnership Foundation</p>
@@ -135,7 +135,7 @@ title: "About"
           </div>
           <div style="margin-bottom: 2rem;">
             <h4 style="color: var(--color-navy) !important; margin-bottom: 0.25rem;">
-  <img src="images/growth.jpg" alt="Team Growth" style="width: 24px; height: 24px; object-fit: cover; border-radius: 4px; vertical-align: middle; margin-right: 0.5rem;">
+ 👥
   Team Growth
 </h4>
             <p style="font-size: 0.85rem; color: var(--color-gold-dark); font-weight: 600; margin-bottom: 0.5rem;">Building Research Capacity</p>
@@ -148,7 +148,7 @@ title: "About"
           </div>
           <div>
             <h4 style="color: var(--color-navy) !important; margin-bottom: 0.25rem;">
-  <img src="images/impact.jpg" alt="Current Impact" style="width: 24px; height: 24px; object-fit: cover; border-radius: 4px; vertical-align: middle; margin-right: 0.5rem;">
+ 📈
   Current Impact
 </h4>
             <p style="font-size: 0.85rem; color: var(--color-gold-dark); font-weight: 600; margin-bottom: 0.5rem;">Research & Outreach</p>

@@ -741,3 +741,18 @@ main#quarto-document-content {
 html {
   scroll-behavior: smooth;
 }
+
+
+/* ── Change grey text to black ── */
+.about-value-text,
+.research-card-text,
+.partner-text,
+.contact-text,
+.team-bio,
+.bio-text,
+p[style*="color: #666"],
+p[style*="color: #444"] {
+  color: #4a4a4a !important;
+  font-weight: 600 !important;
+  font-size: 1.1rem !important;
+}

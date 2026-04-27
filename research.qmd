@@ -21,7 +21,7 @@ title: "Research"
   <!-- 1. Climate Risk Modelling -->
   <div class="col-md-4">
     <div class="research-card">
-      <div class="research-card-icon"><img src="images/climate.png" alt="Climate Risk" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-icon">🌡️</div>
       <div class="research-card-title">Climate Risk Modelling</div>
       <div class="research-card-text">
         Developing spatial and temporal models for extreme weather events,
@@ -34,7 +34,7 @@ title: "Research"
   <!-- 2. Machine Learning & AI -->
   <div class="col-md-4">
     <div class="research-card">
-      <div class="research-card-icon"><img src="images/ml.png" alt="Machine Learning" style="width: 56px; height: 56px; object-fit: contain;"></div>
+     <div class="research-card-icon">🧠</div>
       <div class="research-card-title">Machine Learning & AI</div>
       <div class="research-card-text">
         Applying deep learning, neural networks, and ensemble methods to
@@ -47,7 +47,7 @@ title: "Research"
   <!-- 3. Health & Survival Analysis -->
   <div class="col-md-4">
     <div class="research-card">
-      <div class="research-card-icon"><img src="images/survival.png" alt="Health and Survival" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-icon">🏥</div>
       <div class="research-card-title">Health & Survival Analysis</div>
       <div class="research-card-text">
         Studying mortality trends, infectious disease dynamics, and longevity risk
@@ -60,7 +60,7 @@ title: "Research"
   <!-- 4. Spatial Statistics -->
   <div class="col-md-4">
     <div class="research-card">
-      <div class="research-card-icon"><img src="images/spatial.png" alt="Spatial Statistics" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-icon">🗺️</div>
       <div class="research-card-title">Spatial Statistics</div>
       <div class="research-card-text">
         Using geostatistical methods, kriging, and spatial copula frameworks for
@@ -73,7 +73,7 @@ title: "Research"
   <!-- 5. Data Visualisation -->
   <div class="col-md-4">
     <div class="research-card">
-      <div class="research-card-icon"><img src="images/visualisation.png" alt="Data Visualisation" style="width: 56px; height: 56px; object-fit: contain;"></div>
+      <div class="research-card-icon">📊</div>
       <div class="research-card-title">Data Visualisation</div>
       <div class="research-card-text">
         Developing multivariate visualisation techniques including biplots,
@@ -86,7 +86,7 @@ title: "Research"
   <!-- 6. Risk & Insurance Analytics -->
   <div class="col-md-4">
     <div class="research-card">
-      <div class="research-card-icon"><img src="images/risk.jpg" alt="Risk and Insurance" style="width: 56px; height: 56px; object-fit: contain;"></div>
+    <div class="research-card-icon">🛡️</div>
       <div class="research-card-title">Risk & Insurance Analytics</div>
       <div class="research-card-text">
         Developing pricing, reserving, and capital assessment models for

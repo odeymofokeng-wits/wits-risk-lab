@@ -20,13 +20,13 @@ title: "Contact"
      <!-- Email -->
      <div class="col-md-4">
   <div class="contact-card">
-    <div class="contact-icon"><img src="images/contact.png" alt="Email" style="width: 56px; height: 56px; object-fit: contain;"></div>
+    <div class="contact-icon">📧</div>
     <div class="contact-title">Email</div>
-    <div class="contact-text">
-      Email contact coming soon.
-      <br /><br />
-      <span style="color: var(--color-gold); font-weight: 500;">Stay tuned →</span>
-    </div>
+<div class="contact-text">
+  <a href="mailto:your-email@wits.ac.za" class="contact-link">
+   rendani.mbuvha@wits.ac.za
+  </a>
+</div>
   </div>
 </div>
 
@@ -34,7 +34,7 @@ title: "Contact"
       <!-- Location -->
       <div class="col-md-4">
         <div class="contact-card">
-          <div class="contact-icon"><img src="images/location.png" alt="Location" style="width: 56px; height: 56px; object-fit: contain;"></div>
+         <div class="contact-icon">📍</div>
           <div class="contact-title">Location</div>
           <div class="contact-text">
             School of Statistics & Actuarial Science<br />
@@ -47,7 +47,7 @@ title: "Contact"
       <!-- Connect -->
       <div class="col-md-4">
   <div class="contact-card">
-    <div class="contact-icon"><img src="images/connect.png" alt="Connect" style="width: 56px; height: 56px; object-fit: contain;"></div>
+    <div class="contact-icon">💼</div>
     <div class="contact-title">Connect</div>
     <div class="contact-text">
       LinkedIn page coming soon.
