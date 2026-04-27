@@ -123,11 +123,11 @@ title: "Contact"
         West Campus, University of the Witwatersrand, Johannesburg.
       </p>
       <iframe 
-  src="https://www.openstreetmap.org/export/embed.html?bbox=28.024810%2C-26.192170%2C28.028810%2C-26.188170&amp;layer=mapnik&amp;marker=-26.190170%2C28.026810" 
-  width="100%" 
-  height="450" 
-  style="border:0; border-radius: 12px; max-width: 800px; margin: 0 auto; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
-</iframe>
+        src="https://www.openstreetmap.org/export/embed.html?bbox=28.024810%2C-26.192170%2C28.028810%2C-26.188170&amp;layer=mapnik&amp;marker=-26.190170%2C28.026810" 
+        width="100%" 
+        height="450" 
+        style="border:0; border-radius: 12px; max-width: 800px; margin: 0 auto; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+      </iframe>
     </div>
   </div>
 </div>
