@@ -77,9 +77,8 @@ title: "Research"
       <div class="research-card-title">Data Visualisation</div>
       <div class="research-card-text">
         Developing multivariate visualisation techniques including biplots,
-        principal surfaces, and interactive dashboards. This includes biplots,
-        goodness-of-fit diagnostics, and interactive dashboards using RShiny for
-        exploring high-dimensional data.
+principal surfaces, and goodness-of-fit diagnostics. This includes
+interactive dashboards using RShiny for exploring high-dimensional data.
       </div>
     </div>
   </div>
@@ -123,9 +122,12 @@ title: "Research"
         structures in energy portfolios.
       </div>
     </div>
-  </div>
+    </div>
   
-</div>
+    </div>   
+  </div>     
+</div>       
+
 <!-- Current Projects Section -->
 <div class="bg-light-section" style="padding: 5rem 0;">
   <div class="container">
