@@ -754,5 +754,19 @@ p[style*="color: #666"],
 p[style*="color: #444"] {
   color: #4a4a4a !important;
   font-weight: 600 !important;
-  font-size: 1.1rem !important;
+  font-size: 1.05rem !important;
+}
+
+
+/* Fix contact card text color - must be light on dark background */
+.contact-card .contact-text {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-size: 0.9rem !important;
+}
+
+/* Fix email link color */
+.contact-card .contact-link {
+  color: var(--color-gold) !important;
+  word-break: break-all;
+  font-size: 0.85rem;
 }
