@@ -352,6 +352,59 @@ title: "Team"
           <p class="bio-text">An Honours student in Mathematical Statistics who completed his undergraduate degree in Actuarial Science at WITS in 2025. His honours research focuses on climate exposure and health risk in Gauteng, examining how extreme heat, drought, and heavy rainfall affect vulnerable populations in the region.</p>
         </div>
       </div>
+      
+      
+<!-- Jessie Leukes -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="jessie">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Jessie_L.jpg" alt="Jessie Leukes" class="team-photo">
+  <div class="team-name-compact">Jessie Leukes</div>
+  <div class="team-role-compact">Masters Student in Statistics</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Biplots</span>
+    <span class="team-badge">Multivariate Analysis</span>
+    <span class="team-badge">Statistical Computing</span>
+    <span class="team-badge">Goodness-of-Fit</span>
+  </div>
+  
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/jessie-leukes-b587211b5/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+  
+  <div class="team-bio-full">
+    <p class="bio-text">Jessie Leukes is an MSc student in Mathematical Statistics at Wits, where her research focuses on developing measures of fit for Canonical Variate Analysis biplots based on the Generalised Singular Value Decomposition. Her work sits at the intersection of multivariate statistical theory and practical visualisation tools, aiming to provide more robust diagnostics for assessing how well these biplots represent the underlying data structure.</p>
+    <p class="bio-text">She holds a BCom Honours in Statistics from <a href="https://www.sun.ac.za/" target="_blank">Stellenbosch University</a>, which she completed cum laude in 2022, and a BCom in Investment Management and Statistics, also cum laude, from the same institution. Her academic achievements include the Rector's Award for Excellent Achievement (2022), recognition as the Top Final Year Student in Statistics (2021), Top Second Year Student in Economics (2020), and Top Second Year Student in Financial Accounting (2020).</p>
+    <p class="bio-text">Alongside her studies, Jessie works as a Quantitative Analyst at <a href="https://www.nedbank.co.za/" target="_blank">Nedbank</a> in the Advanced Analytics and Innovation division within Group Risk Analytics, a role she has held since October 2024. Before joining the banking sector, she gained early exposure to quantitative finance through an internship at <a href="https://www.coronation.com/" target="_blank">Coronation Fund Managers</a>, where she worked in the Investment Risk and Performance team. Her combination of industry experience and academic rigour brings a practical perspective to her research on statistical methodology.</p>
+  </div>
+</div>
+
+
+
+<!-- Awelani Phaswana -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="awelani">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Awelani_P.jpg" alt="Awelani Phaswana" class="team-photo">
+  <div class="team-name-compact">Awelani Phaswana</div>
+  <div class="team-role-compact">Masters Student in Statistics</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Time Series</span>
+    <span class="team-badge">Forecasting</span>
+    <span class="team-badge">Energy Markets</span>
+    <span class="team-badge">Multivariate Methods</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/awelani-phaswana-69024675/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Awelani Phaswana is an MSc student in Mathematical Statistics at WITS, where his research focuses on forecasting electricity prices in South Africa using multivariate approaches. His work brings together time series methodology and the practical realities of the South African energy market, an area of growing importance as the country navigates a rapidly changing power landscape. He submitted his research proposal in 2025 and is expected to complete his dissertation by December 2027.</p>
+    <p class="bio-text">He holds a BBusSci in Statistical Science, Finance and Economics from the <a href="https://www.uct.ac.za/" target="_blank">University of Cape Town</a>, completed in 2012, where he also served as a Statistics tutor. He began his career at <a href="https://www.eskom.co.za/" target="_blank">Eskom</a> as a Graduate in Training in Statistics in 2013, and over the following decade has built substantial experience across forecasting, business intelligence, and management consulting. He held roles as Management Consultant and Senior Consultant within Eskom's Top Consulting Group before serving as Acting Programme Manager and then Chief Advisor in Business Intelligence.</p>
+    <p class="bio-text">In September 2022 he was appointed Forecasting Manager within the Energy Trading division, and in December 2025 he took up the role of Demand and Price Forecasting Executive, where he leads forecasting functions at a national level. His return to formal postgraduate study reflects a commitment to grounding his industry expertise in rigorous statistical methodology, and his research is directly informed by the operational demands of forecasting in one of South Africa's most critical sectors.</p>
+  </div>
+  
 
     </div>
   </div>
@@ -393,60 +446,4 @@ document.addEventListener('keydown', function(e) {
 });
 </script>
 
-
-
-
-<!-- Jessie Leukes -->
-<div class="team-card-compact" onclick="openCard(this)" data-member="jessie">
-  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
-  <img src="images/team/Jessie_L.jpg" alt="Jessie Leukes" class="team-photo">
-  <div class="team-name-compact">Jessie Leukes</div>
-  <div class="team-role-compact">Masters Student in Statistics</div>
-  <div class="team-badges-compact">
-    <span class="team-badge">Biplots</span>
-    <span class="team-badge">Multivariate Analysis</span>
-    <span class="team-badge">Statistical Computing</span>
-    <span class="team-badge">Goodness-of-Fit</span>
-  </div>
-  
-  <!-- SOCIAL LINKS -->
-  <div class="social-links" onclick="event.stopPropagation()">
-    <a href="https://www.linkedin.com/in/jessie-leukes-b587211b5/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
-  </div>
-  
-  <div class="team-bio-full">
-    <p class="bio-text">Jessie Leukes is an MSc student in Mathematical Statistics at Wits, where her research focuses on developing measures of fit for Canonical Variate Analysis biplots based on the Generalised Singular Value Decomposition. Her work sits at the intersection of multivariate statistical theory and practical visualisation tools, aiming to provide more robust diagnostics for assessing how well these biplots represent the underlying data structure.</p>
-    <p class="bio-text">She holds a BCom Honours in Statistics from <a href="https://www.sun.ac.za/" target="_blank">Stellenbosch University</a>, which she completed cum laude in 2022, and a BCom in Investment Management and Statistics, also cum laude, from the same institution. Her academic achievements include the Rector's Award for Excellent Achievement (2022), recognition as the Top Final Year Student in Statistics (2021), Top Second Year Student in Economics (2020), and Top Second Year Student in Financial Accounting (2020).</p>
-    <p class="bio-text">Alongside her studies, Jessie works as a Quantitative Analyst at <a href="https://www.nedbank.co.za/" target="_blank">Nedbank</a> in the Advanced Analytics and Innovation division within Group Risk Analytics, a role she has held since October 2024. Before joining the banking sector, she gained early exposure to quantitative finance through an internship at <a href="https://www.coronation.com/" target="_blank">Coronation Fund Managers</a>, where she worked in the Investment Risk and Performance team. Her combination of industry experience and academic rigour brings a practical perspective to her research on statistical methodology.</p>
-  </div>
-</div>
-</div>
-
-
-
-<!-- Awelani Phaswana -->
-<div class="team-card-compact" onclick="openCard(this)" data-member="awelani">
-  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
-  <img src="images/team/Awelani_P.jpg" alt="Awelani Phaswana" class="team-photo">
-  <div class="team-name-compact">Awelani Phaswana</div>
-  <div class="team-role-compact">Masters Student in Statistics</div>
-  <div class="team-badges-compact">
-    <span class="team-badge">Time Series</span>
-    <span class="team-badge">Forecasting</span>
-    <span class="team-badge">Energy Markets</span>
-    <span class="team-badge">Multivariate Methods</span>
-  </div>
-
-  <!-- SOCIAL LINKS -->
-  <div class="social-links" onclick="event.stopPropagation()">
-    <a href="https://www.linkedin.com/in/awelani-phaswana-69024675/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
-  </div>
-
-  <div class="team-bio-full">
-    <p class="bio-text">Awelani Phaswana is an MSc student in Mathematical Statistics at WITS, where his research focuses on forecasting electricity prices in South Africa using multivariate approaches. His work brings together time series methodology and the practical realities of the South African energy market, an area of growing importance as the country navigates a rapidly changing power landscape. He submitted his research proposal in 2025 and is expected to complete his dissertation by December 2027.</p>
-    <p class="bio-text">He holds a BBusSci in Statistical Science, Finance and Economics from the <a href="https://www.uct.ac.za/" target="_blank">University of Cape Town</a>, completed in 2012, where he also served as a Statistics tutor. He began his career at <a href="https://www.eskom.co.za/" target="_blank">Eskom</a> as a Graduate in Training in Statistics in 2013, and over the following decade has built substantial experience across forecasting, business intelligence, and management consulting. He held roles as Management Consultant and Senior Consultant within Eskom's Top Consulting Group before serving as Acting Programme Manager and then Chief Advisor in Business Intelligence.</p>
-    <p class="bio-text">In September 2022 he was appointed Forecasting Manager within the Energy Trading division, and in December 2025 he took up the role of Demand and Price Forecasting Executive, where he leads forecasting functions at a national level. His return to formal postgraduate study reflects a commitment to grounding his industry expertise in rigorous statistical methodology, and his research is directly informed by the operational demands of forecasting in one of South Africa's most critical sectors.</p>
-  </div>
-</div>
-</div>
 ```
