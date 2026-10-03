@@ -77,8 +77,9 @@ title: "Research"
       <div class="research-card-title">Data Visualisation</div>
       <div class="research-card-text">
         Developing multivariate visualisation techniques including biplots,
-        principal surfaces, and interactive dashboards. This includes RShiny
-        applications and methods for exploring high-dimensional actuarial data.
+        principal surfaces, and interactive dashboards. This includes biplots,
+        goodness-of-fit diagnostics, and interactive dashboards using RShiny for
+        exploring high-dimensional data.
       </div>
     </div>
   </div>
@@ -95,6 +96,35 @@ title: "Research"
       </div>
     </div>
   </div>
+  
+    <!-- 7. Multivariate Methods -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon">📐</div>
+      <div class="research-card-title">Multivariate Methods</div>
+      <div class="research-card-text">
+        Extending classical multivariate techniques to high-dimensional settings,
+        including Generalised Singular Value Decomposition (GSVD) approaches to
+        MANOVA and Canonical Variate Analysis, with applications to complex
+        actuarial and financial data.
+      </div>
+    </div>
+  </div>
+  
+    <!-- 8. Energy & Financial Forecasting -->
+  <div class="col-md-4">
+    <div class="research-card">
+      <div class="research-card-icon">⚡</div>
+      <div class="research-card-title">Energy & Financial Forecasting</div>
+      <div class="research-card-text">
+        Developing multivariate time series methods for forecasting electricity
+        prices, demand, and financial market variables in South African and
+        African markets. This includes regime-switching models and dependence
+        structures in energy portfolios.
+      </div>
+    </div>
+  </div>
+  
 </div>
 <!-- Current Projects Section -->
 <div class="bg-light-section" style="padding: 5rem 0;">
@@ -132,6 +162,44 @@ title: "Research"
               Aphiwe Ngcobo (Honours Statistics) is examining how extreme heat,
               drought, and heavy rainfall affect vulnerable populations in
               Gauteng, combining climate data with public health analysis.
+            </p>
+          </div>
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Multivariate Methods for High-Dimensional Data
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Lazola Ntanjana (MSc Statistics) is developing a Generalised
+              Singular Value Decomposition (GSVD) approach to MANOVA for
+              high-dimensional data, extending classical multivariate testing
+              to settings where the number of variables approaches or exceeds
+              the sample size. Expected completion: February 2027.
+            </p>
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Forecasting South African Electricity Prices
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Awelani Phaswana (MSc Statistics) is developing multivariate
+              approaches for forecasting electricity prices in South Africa,
+              combining time series methodology with the operational realities
+              of the national energy market. Expected completion: December 2027.
+            </p>
+          </div>
+
+          <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Goodness-of-Fit for Canonical Variate Analysis Biplots
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Jessie Leukes (MSc Statistics) is developing measures of fit for
+              Canonical Variate Analysis biplots based on the Generalised
+              Singular Value Decomposition, providing robust diagnostics for
+              assessing how well these biplots represent the underlying data
+              structure. Expected completion: December 2027.
             </p>
           </div>
 
