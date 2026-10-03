@@ -150,7 +150,7 @@ title: "Research"
             <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
               Odey Mofokeng (MSc Statistics) is developing Bayesian spatial
               copula frameworks for insurance pricing in KwaZulu-Natal,
-              examining flood and drought risk through geostatistical methods.
+              examining flood and drought risk through geostatistical methods. Expected completion: December 2026
             </p>
           </div>
 
@@ -161,7 +161,7 @@ title: "Research"
             <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
               Aphiwe Ngcobo (Honours Statistics) is examining how extreme heat,
               drought, and heavy rainfall affect vulnerable populations in
-              Gauteng, combining climate data with public health analysis.
+              Gauteng, combining climate data with public health analysis. Expected completion: December 2026
             </p>
           </div>
           
@@ -172,9 +172,7 @@ title: "Research"
             <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
               Lazola Ntanjana (MSc Statistics) is developing a Generalised
               Singular Value Decomposition (GSVD) approach to MANOVA for
-              high-dimensional data, extending classical multivariate testing
-              to settings where the number of variables approaches or exceeds
-              the sample size. Expected completion: February 2027.
+              high-dimensional data. Expected completion: February 2027.
             </p>
           </div>
 
@@ -185,8 +183,8 @@ title: "Research"
             <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
               Awelani Phaswana (MSc Statistics) is developing multivariate
               approaches for forecasting electricity prices in South Africa,
-              combining time series methodology with the operational realities
-              of the national energy market. Expected completion: December 2027.
+              combining time series methodology with the realities
+              of the energy market. Expected completion: December 2027.
             </p>
           </div>
 
