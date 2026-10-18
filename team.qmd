@@ -431,6 +431,56 @@ title: "Team"
     <p class="bio-text">Alongside his studies, Lazola works as a Quantitative Analyst at <a href="https://www.fnb.co.za/" target="_blank">FNB South Africa</a>, where he is part of the Broader Africa / FNB International Credit Retail Impairment team. He joined the bank through the FNB Graduate Programme in January 2025 and transitioned into a permanent quantitative analyst role in January 2026. His day-to-day work in credit impairment modelling complements his research interests in multivariate methods, and his industry experience brings a practical dimension to his work.</p>
   </div>
 </div>
+
+<!-- Nontsikelelo Wittes -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="nontsikelelo">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Nontsikelelo_W.jpg" alt="Nontsikelelo Wittes" class="team-photo">
+  <div class="team-name-compact">Nontsikelelo Wittes</div>
+  <div class="team-role-compact">Honours Student in Data Science</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Survival Analysis</span>
+    <span class="team-badge">Random Survival Forests</span>
+    <span class="team-badge">Risk Set Sampling</span>
+    <span class="team-badge">Censored Data</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/nontsikelelo-wittes-012b2b22b/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Nontsikelelo Wittes is an Honours student in Data Science at WITS, where her research investigates the effect of risk set sampling on Random Forest Survival models in the presence of censoring.</p>
+    <p class="bio-text">She holds a BSc in Computational and Applied Mathematics from the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a>. Her training in computational methods and applied mathematics underpins her interest in machine learning methodology. Beyond her academic work, Nontsikelelo serves as a Director at the <a href="https://heartofhopefoundation.org/" target="_blank">Heart Of Hope Foundation</a>, a South African organisation supporting children and community welfare.</p>
+  </div>
+</div>
+
+
+<!-- Steven Mphaya -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="steven">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Steven_M.jpg" alt="Steven Mphaya" class="team-photo">
+  <div class="team-name-compact">Steven Mphaya</div>
+  <div class="team-role-compact">PhD Candidate in Statistical Data Science</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Deep Learning</span>
+    <span class="team-badge">ESG Scores</span>
+    <span class="team-badge">Risk Measures</span>
+    <span class="team-badge">Credit Risk</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/steve-mphaya-2b4356230/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Steven Mphaya is a PhD candidate in Statistical Data Science at WITS, where his research focuses on deep learning for modelling ESG (Environmental, Social, and Governance) scores and risk measures. His work sits at the intersection of machine learning and quantitative risk.</p>
+    <p class="bio-text">He holds an MSc in Mathematics and Statistics from the <a href="https://ucc.edu.gh/" target="_blank">University of Cape Coast</a> in Ghana (2021–2022) and a Bachelor's degree in Mathematical Sciences from the <a href="https://www.unima.ac.mw/" target="_blank">University of Malawi</a> (2015–2020). He is currently completing a PhD at the <a href="https://www.unisa.it/" target="_blank">Università degli Studi di Salerno</a> in Italy (2023–2026), complementing his research at WITS.</p>
+    <p class="bio-text">Alongside his doctoral work, Steven is a Staff Associate and researcher with experience in credit risk and cloud data analytics. He has completed further professional training including a Postgraduate Course in Econometrics from the <a href="https://www.sieconom.org/" target="_blank">Italian Econometric Association</a> (2024), a Certificate in Urban Economics from the <a href="https://www.bread.org/" target="_blank">Bureau for Research and Economic Analysis of Development</a> and the International Growth Centre (2024), and a Certificate in Leadership from the <a href="https://www.aspireleaders.org/" target="_blank">Aspire Institute</a> (2025), where he is an Aspire Leadership Alumnus.</p>
+  </div>
+</div>
   
 
     </div>
