@@ -263,6 +263,87 @@ interactive dashboards using RShiny for exploring high-dimensional data.
               opportunities for future publications and conference presentations.
             </p>
           </div>
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Multi-Hazard Climate Risk and Parametric Insurance
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Dinal Bhoola and Wade Reddy (Honours Actuarial Science) are
+              developing a multi-hazard climate risk assessment for South
+              Africa and evaluating parametric insurance structures as a
+              mechanism for transferring climate risk.
+            </p>
+          </div>
+          
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Pricing European Commodity Options Using Normalising Flows
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Keletso Mabelane (MSc Statistics) is developing normalising flow
+              methods for pricing European commodity options, moving beyond
+              restrictive distributional assumptions to capture the complex
+              behaviour of commodity price dynamics.
+            </p>
+          </div>
+          
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Towards More Reliable Seasonal Climate Forecasts
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Zahir Nikraftar (PhD Computer Science, Queen Mary University of
+              London) is developing deep learning methods for bias correction
+              of seasonal forecasting models, with the aim of improving the
+              reliability of climate forecasts used in risk assessment across
+              Africa. His related work with Prof. Rendani Mbuvha on impact-based
+              skill evaluation of seasonal precipitation forecasts appeared in
+              <em>Earth's Future</em> (2024).
+            </p>
+          </div>
+          
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Advancing Seasonal Weather Risk Assessment Using Machine Learning
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Annine Duclaire Kenne (PhD Statistics) is developing machine
+              learning methods to improve seasonal weather risk assessment,
+              building on her earlier work on drought prediction over Cameroon
+              and her research on deep learning for climate applications.
+            </p>
+          </div>
+          
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Climate Health Nexus
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Abdoulaye Diop (PhD Statistics, University of Manchester) is
+              researching the intersection of climate-related health and
+              sustainable development, building on his WASCAL-funded work on
+              multi-hazard risks to staple crop yields in the Sahel and his
+              development of high-resolution precipitation forecasting
+              pipelines for West Africa.
+            </p>
+          </div>
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Forecast Skill Decay in AI-Based Weather Models
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Kopano Motebu (Honours Mathematical Statistics) is statistically
+              characterising how forecast skill decays with lead time in
+              AI-based medium-range weather models, examining the practical
+              limits of machine learning weather prediction.
+            </p>
+          </div>
 
         </div>
       </div>
