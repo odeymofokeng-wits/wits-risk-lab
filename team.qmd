@@ -305,53 +305,54 @@ title: "Team"
       </div>
 
       <!-- Odey Mofokeng -->
-      <div class="team-card-compact" onclick="openCard(this)" data-member="odey">
-        <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
-        <img src="images/team/Odey_M.jpg" alt="Odey Mofokeng" class="team-photo">
-        <div class="team-name-compact">Odey Mofokeng</div>
-        <div class="team-role-compact">Masters Student in Statistics</div>
-        <div class="team-badges-compact">
-          <span class="team-badge">Bayesian Statistics</span>
-          <span class="team-badge">Spatial Modelling</span>
-          <span class="team-badge">Climate Risk</span>
-          <span class="team-badge">Copula Methods</span>
-        </div>
-        
-        <!-- SOCIAL LINKS - add this section -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="odey">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Odey_M.jpg" alt="Odey Mofokeng" class="team-photo">
+  <div class="team-name-compact">Odey Mofokeng</div>
+  <div class="team-role-compact">Masters Student in Statistics</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Bayesian Statistics</span>
+    <span class="team-badge">Spatial Modelling</span>
+    <span class="team-badge">Climate Risk</span>
+    <span class="team-badge">Copula Methods</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
   <div class="social-links" onclick="event.stopPropagation()">
     <a href="https://www.linkedin.com/in/odey-mofokeng-94b043238/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
     <a href="https://orcid.org/0009-0008-8527-1868" class="social-link orcid" title="ORCID" target="_blank">id</a>
     <a href="https://odeymofokeng-wits.github.io/my_portfolio/" class="social-link website" title="Portfolio" target="_blank">web</a>
   </div>
-        
-        <div class="team-bio-full">
-          <p class="bio-text">Odey Mofokeng is an MSc student in Mathematical Statistics at WITS, where he completed his honours degree with distinction in 2025. His honours research on wastewater surveillance using regression Kriging earned the Peter Fridjhon Gold Medal for Best Honours Research Project, along with the Liberty Sandton City Voucher for Best Honours Student and First Prize at the 2025 <a href="https://www.sastat.org/" target="_blank">South African Statistical Association</a> Annual Conference.</p>
-          <p class="bio-text">He holds an undergraduate degree in Actuarial Science from WITS and is currently developing a Bayesian spatial copula framework for climate risk assessment in KwaZulu-Natal as his MSc thesis.</p>
-        </div>
-      </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Odey Mofokeng is an MSc student in Mathematical Statistics at WITS, where his dissertation develops a Multidimensional Climate Risk Scorecard using a Bayesian Spatial Copula framework for insurance pricing and sustainability strategy in KwaZulu-Natal. His honours research - <em>Refining Wastewater Surveillance through Regression Kriging: A Geostatistical Approach to Improve Spatial Prediction and Public Health Applications</em>, undertaken in collaboration with the <a href="https://raymandoc.quarto.pub/sepimod/" target="_blank">SEPIMOD</a> research group - earned the Peter Fridjhon Gold Medal for Best Honours Research Project, the Liberty Sandton City Voucher for Best Honours Mathematical Statistics Student, First Prize for Best Poster at the 2025 <a href="https://www.sastat.org/" target="_blank">South African Statistical Association</a> Annual Conference, and Third Prize in the SASA Honours Project Competition (2025/26). He also the <a href="https://saadp.co.za/" target="_blank">SAADP</a> Executive Director's Exceptional Diamond Award (2026).</p>
+    <p class="bio-text">He holds a BSc in Actuarial Science and a BSc Honours in Mathematical Statistics with distinction, both from the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a>. His broader interest lies in translating advanced statistical methods into practical tools for climate risk, public health, and insurance.</p>
+  </div>
+</div>
 
       <!-- Aphiwe Ngcobo -->
-      <div class="team-card-compact" onclick="openCard(this)" data-member="aphiwe">
-        <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
-        <img src="images/team/Aphiwe_N.jpeg" alt="Aphiwe Ngcobo" class="team-photo">
-        <div class="team-name-compact">Aphiwe Ngcobo</div>
-        <div class="team-role-compact">Honours Student in Mathematical Statistics</div>
-        <div class="team-badges-compact">
-          <span class="team-badge">Climate Risk</span>
-          <span class="team-badge">Health Statistics</span>
-          <span class="team-badge">Actuarial Science</span>
-          <span class="team-badge">Environmental Data</span>
-        </div>
-        
-         <!-- SOCIAL LINKS - add this section -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="aphiwe">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Aphiwe_N.jpeg" alt="Aphiwe Ngcobo" class="team-photo">
+  <div class="team-name-compact">Aphiwe Ngcobo</div>
+  <div class="team-role-compact">Honours Student in Mathematical Statistics</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Climate Risk</span>
+    <span class="team-badge">Health Statistics</span>
+    <span class="team-badge">Actuarial Science</span>
+    <span class="team-badge">Environmental Data</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
   <div class="social-links" onclick="event.stopPropagation()">
     <a href="https://www.linkedin.com/in/aphiwe-ngcobo-7868a4272/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
   </div>
-        
-        <div class="team-bio-full">
-          <p class="bio-text">An Honours student in Mathematical Statistics who completed his undergraduate degree in Actuarial Science at WITS in 2025. His honours research focuses on climate exposure and health risk in Gauteng, examining how extreme heat, drought, and heavy rainfall affect vulnerable populations in the region.</p>
-        </div>
-      </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Aphiwe Ngcobo is an Honours student in Mathematical Statistics at WITS, where his research focuses on climate exposure and health risk in Gauteng - examining how extreme heat, drought, and heavy rainfall affect vulnerable populations in the region. His project brings together climate data with public health analysis, applying statistical methods to questions of growing urgency as South Africa's climate shifts.</p>
+    <p class="bio-text">He completed his BSc in Actuarial Science at the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a> in 2025. Alongside his studies he has been active in the Wits chess, astronomy, investment, and coding societies. He describes himself as a disciplined and dedicated actuary in the making, and his Honours research reflects a commitment to using quantitative methods for real-world social impact.</p>
+  </div>
+</div>
       
       
 <!-- Jessie Leukes -->
@@ -736,7 +737,7 @@ title: "Team"
 <!-- Kopano Motebu -->
 <div class="team-card-compact" onclick="openCard(this)" data-member="kopano">
   <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
-  <img src="images/team/Kopano_M.jpg" alt="Kopano Motebu" class="team-photo">
+  <img src="images/team/Kopano_M.png" alt="Kopano Motebu" class="team-photo">
   <div class="team-name-compact">Kopano Motebu</div>
   <div class="team-role-compact">Honours Student in Mathematical Statistics</div>
   <div class="team-badges-compact">
@@ -755,6 +756,105 @@ title: "Team"
     <p class="bio-text">Kopano Motebu is an Honours student in Mathematical Statistics at WITS, where his research focuses on the statistical characterisation of forecast skill decay in AI-based medium-range weather models. His project examines how the predictive accuracy of machine learning weather models degrades with forecast horizon - a question of increasing importance as AI systems begin to challenge traditional numerical weather prediction in operational settings. He holds a BSc in Actuarial Science from the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a>, completed in 2025. He is now pursuing his Honours degree in Mathematical Statistics.</p>
   </div>
 </div>
+
+<!-- Luke Cable -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="luke">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Luke_C.jpg" alt="Luke Cable" class="team-photo">
+  <div class="team-name-compact">Luke Cable</div>
+  <div class="team-role-compact">Honours Student in Actuarial Science</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Heat Stress</span>
+    <span class="team-badge">Labour Productivity</span>
+    <span class="team-badge">Crop Yields</span>
+    <span class="team-badge">Climate Risk</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/luke-cable-a31961380/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Luke Cable is an Honours student in Actuarial Science at WITS, where his research - undertaken with Luthando Zondi - examines the impacts of heat stress on labour productivity and crop yields in South Africa. Their project quantifies how rising temperatures feed through into two critical dimensions of economic and social vulnerability: the capacity of workers to perform physical labour under heat, and the viability of agricultural output in a warming climate.</p>
+    <p class="bio-text">He completed his BSc in Actuarial Science at the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a> with distinction in 2025. Outside academia, he is a keen runner, mountain biker, hiker, and saxophonist, and has volunteered with parkrun since 2019.</p>
+  </div>
+</div>
+
+
+<!-- Luthando Zondi -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="luthando">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Luthando_Z.jpg" alt="Luthando Zondi" class="team-photo">
+  <div class="team-name-compact">Luthando Zondi</div>
+  <div class="team-role-compact">Honours Student in Actuarial Science</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Climate Risk</span>
+    <span class="team-badge">CLIMADA</span>
+    <span class="team-badge">Crop Yields</span>
+    <span class="team-badge">Labour Productivity</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/luthando-m-m-zondi-8354381b4/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Luthando Zondi is an Honours student in Actuarial Science at WITS, where his research - undertaken with Luke Cable - examines the heat stress impact on crop yields and labour productivity in South Africa using the CLIMADA framework. Their work applies a probabilistic catastrophe modelling platform to quantify how extreme heat feeds through into agricultural output and workforce capacity, a question with direct relevance for insurers, agribusinesses, and policymakers preparing for a warming climate.</p>
+    <p class="bio-text">He completed his BSc in Actuarial Science at the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a> in 2025. Alongside his studies he has gained practical exposure through an AIG actuarial analyst job simulation (marine liability pricing) and a vacation programme with True South Actuaries. Outside academia, he is co-founder of Tsebo Academic Excellence, where he tutors grade 10 and 11 learners and helps recruit teachers, and he plays football for the Wits Football Club.</p>
+  </div>
+</div>
+
+<!-- Rohan Bodalina -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="rohan">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Rohan_B.jpg" alt="Rohan Bodalina" class="team-photo">
+  <div class="team-name-compact">Rohan Bodalina</div>
+  <div class="team-role-compact">Honours Student in Actuarial Science</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Mortality Forecasting</span>
+    <span class="team-badge">Recurrent Neural Networks</span>
+    <span class="team-badge">Deep Learning</span>
+    <span class="team-badge">Actuarial Science</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/rohan-bodalina-72aa7537b/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Rohan Bodalina is an Honours student in Actuarial Science at WITS, where his research - undertaken with Jolan Govender - develops mortality forecasting models using recurrent neural networks. Their project applies deep learning to one of the oldest problems in actuarial science: projecting future mortality rates with sufficient accuracy to inform life insurance pricing, reserving, and longevity risk management. RNNs offer a natural fit for the sequential structure of mortality time series, and their work explores how these architectures compare with established stochastic mortality models.</p>
+    <p class="bio-text">He completed his BSc in Actuarial Science at the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a> in 2025 and is now pursuing his Honours degree. Outside his studies he plays violin and golf - pursuits he describes as keeping a good balance between focus and creativity. His approach to actuarial work emphasises problem-solving through real-world challenges, and his research reflects that same orientation towards practical applications of modern methods.</p>
+  </div>
+</div>
+
+
+<!-- Jolan Govender -->
+<div class="team-card-compact" onclick="openCard(this)" data-member="jolan">
+  <button class="close-btn" onclick="event.stopPropagation(); closeAllCards()">×</button>
+  <img src="images/team/Jolan_G.jpg" alt="Jolan Govender" class="team-photo">
+  <div class="team-name-compact">Jolan Govender</div>
+  <div class="team-role-compact">Honours Student in Actuarial Science</div>
+  <div class="team-badges-compact">
+    <span class="team-badge">Mortality Forecasting</span>
+    <span class="team-badge">LSTM & GRU Networks</span>
+    <span class="team-badge">Lee-Carter Model</span>
+    <span class="team-badge">Pensions</span>
+  </div>
+
+  <!-- SOCIAL LINKS -->
+  <div class="social-links" onclick="event.stopPropagation()">
+    <a href="https://www.linkedin.com/in/jolangovender/" class="social-link linkedin" title="LinkedIn" target="_blank">in</a>
+  </div>
+
+  <div class="team-bio-full">
+    <p class="bio-text">Jolan Govender is an Honours student in Actuarial Science at WITS, where his research - undertaken with Rohan Bodalina - benchmarks recurrent neural network architectures against the Lee-Carter model for long-horizon mortality forecasting, with implications for defined benefit pension scheme valuations. He constructed and evaluated LSTM and GRU networks on a 10-year out-of-sample test set. The findings were instructive rather than confirmatory: Lee-Carter outperformed both RNN architectures overall, with the networks producing notably flat long-horizon trajectories that failed to capture sustained mortality improvement trends. A notable exception emerged in Japanese female mortality data, where the LSTM outperformed Lee-Carter - a population-specific dynamic worth exploring further.</p>
+    <p class="bio-text">He completed his BSc in Actuarial Science at the <a href="https://www.wits.ac.za/" target="_blank">University of the Witwatersrand</a> in 2025, with his sights set on the FASSA qualification. His interests lie in the life, health, and pensions space, where rigorous modelling has the most direct bearing on people's long-term financial security. Beyond his research, he placed third on the Risk Cost Leaderboard in the 2026 MiWay Actuarial Hackathon, building an end-to-end predictive model for short-term insurance pricing using GLMs and LightGBMs. Outside of work he plays golf and padel.</p>
+  </div>
+</div>
+
 
     </div>
   </div>

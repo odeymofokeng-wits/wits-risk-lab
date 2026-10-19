@@ -252,18 +252,6 @@ interactive dashboards using RShiny for exploring high-dimensional data.
           </div>
           
           
-
-          <div>
-            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
-              Developing Collaborations
-            </p>
-            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
-              We are building partnerships with industry and academic
-              institutions to expand our research capacity and create
-              opportunities for future publications and conference presentations.
-            </p>
-          </div>
-          
                     <div style="margin-bottom: 1.5rem;">
             <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
               Multi-Hazard Climate Risk and Parametric Insurance
@@ -344,6 +332,47 @@ interactive dashboards using RShiny for exploring high-dimensional data.
               limits of machine learning weather prediction.
             </p>
           </div>
+          
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Heat Stress Impacts on Labour Productivity and Crop Yields
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Luke Cable and Luthando Zondi (Honours Actuarial Science) are
+              examining how heat stress affects labour productivity and crop
+              yields in South Africa, quantifying the economic and social
+              consequences of rising temperatures.
+            </p>
+          </div>
+          
+                    <div style="margin-bottom: 1.5rem;">
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Mortality Forecasting Using Recurrent Neural Networks
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              Rohan Bodalina and Jolan Govender (Honours Actuarial Science) are
+              developing recurrent neural network models for mortality
+              forecasting, exploring how deep learning architectures compare
+              with established stochastic mortality models for applications in
+              life insurance and longevity risk.
+            </p>
+          </div>
+          
+          
+          <div>
+            <p style="font-weight: 600; color: var(--color-navy) !important; margin-bottom: 0.25rem;">
+              Developing Collaborations
+            </p>
+            <p style="color: #666; font-size: 0.9rem; line-height: 1.7;">
+              We are building partnerships with industry and academic
+              institutions to expand our research capacity and create
+              opportunities for future publications and conference presentations.
+            </p>
+          </div>
+          
+          
+          
 
         </div>
       </div>
