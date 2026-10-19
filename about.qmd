@@ -51,11 +51,11 @@ title: "About"
             <div class="about-value-title">Our Values</div>
             <div class="about-value-text">
               <ul style="padding-left: 1.2rem; margin: 0;">
-                <li><strong>Academic Rigour</strong> — Maintaining the highest standards in research methodology</li>
-                <li><strong>High Quality Research</strong> — Using mostly open-source tools for transparency</li>
-                <li><strong>Open Collaboration</strong> — Working across disciplines and institutions</li>
-                <li><strong>Industry Impact</strong> — Translating research into practical solutions</li>
-                <li><strong>Capacity Building</strong> — Training the next generation of quantitative researchers</li>
+                <li><strong>Academic Rigour</strong> - Maintaining the highest standards in research methodology</li>
+                <li><strong>High Quality Research</strong> - Using mostly open-source tools for transparency</li>
+                <li><strong>Open Collaboration</strong> - Working across disciplines and institutions</li>
+                <li><strong>Industry Impact</strong> - Translating research into practical solutions</li>
+                <li><strong>Capacity Building</strong> - Training the next generation of quantitative researchers</li>
               </ul>
             </div>
           </div>
